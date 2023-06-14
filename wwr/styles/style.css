@@ -57,7 +57,7 @@ nav a:hover {
     font-size: 2em;
     margin-top: 10px;
 }
-h4 {
+.memory {
     color: white;
     text-align: center;
 }
@@ -148,7 +148,7 @@ body {
 }
 .book:hover,
 .join:hover {
-    background-color: #2BA6B6;;
+    background-color: #2BA6B6;
     color: #70798C
 }
 .msg h2 {
@@ -174,11 +174,57 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color: #2BA6B6;
+    color: #1b3b35;
     text-decoration: underline;
 }
 footer .social img {
     padding-top: 15px;
+}
+.top{
+    text-align: center;
+    margin:0 auto;
+    background-color: #18565e;
+    width:80%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+    color:#2BA6B6;
+    font-family: "Caveat Brush", Garamond, Arial;;
+}
+.placesgird{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 50px;
+    justify-items: center;
+    align-items: center;
+}
+.idaho-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 10px solid #1b3b35;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.idaho-para{
+    grid-column: 2/3;
+}
+.utah-para{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.utah-img{
+    border: 10px solid #1b3b35;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.arizona-img{
+    border: 10px solid #1b3b35;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.ingrid{
+    text-align: center;
+    color: #1b3b35;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
