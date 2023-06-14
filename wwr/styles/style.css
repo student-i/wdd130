@@ -190,6 +190,9 @@ footer .social img {
     color:#2BA6B6;
     font-family: "Caveat Brush", Garamond, Arial;;
 }
+.top-img{
+    width: 80%;
+}
 .placesgird{
     display: grid;
     grid-template-columns: 50% 50%;
